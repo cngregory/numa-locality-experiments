@@ -1,0 +1,10 @@
+run=1
+Bandwidth_GBps=12.750 Elapsed_s=0.315804 WorkingSet_MiB=768 Checksum=35.0
+run=2
+Bandwidth_GBps=12.787 Elapsed_s=0.314905 WorkingSet_MiB=768 Checksum=35.0
+run=3
+Bandwidth_GBps=13.480 Elapsed_s=0.298711 WorkingSet_MiB=768 Checksum=35.0
+run=4
+Bandwidth_GBps=13.428 Elapsed_s=0.299865 WorkingSet_MiB=768 Checksum=35.0
+run=5
+Bandwidth_GBps=13.040 Elapsed_s=0.308787 WorkingSet_MiB=768 Checksum=35.0

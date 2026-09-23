@@ -1,0 +1,31 @@
+Available PAPI preset and user defined events plus hardware information.
+--------------------------------------------------------------------------------
+PAPI version             : 7.2.0.0
+Operating system         : Linux 7.0.0-27-generic
+Vendor string and code   : GenuineIntel (1, 0x1)
+Model string and code    : Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz (85, 0x55)
+CPU revision             : 4.000000
+CPUID                    : Family/Model/Stepping 6/85/4, 0x06/0x55/0x04
+CPU Max MHz              : 3700
+CPU Min MHz              : 1000
+Total cores              : 24
+SMT threads per core     : 1
+Cores per socket         : 12
+Sockets                  : 2
+Cores per NUMA region    : 12
+NUMA regions             : 2
+Running in a VM          : no
+Number Hardware Counters : 0
+Max Multiplex Counters   : 384
+Fast counter read (rdpmc): no
+--------------------------------------------------------------------------------
+
+================================================================================
+  PAPI Preset Events
+================================================================================
+    Name        Code    Deriv Description (Note)
+
+Of 0 available events, 0 are derived.
+
+No events detected!  Check papi_component_avail to find out why.
+

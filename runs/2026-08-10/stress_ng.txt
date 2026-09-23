@@ -1,0 +1,23 @@
+stress-ng: info:  [3310] setting to a 45 secs run per stressor
+stress-ng: info:  [3310] dispatching hogs: 8 stream
+stress-ng: info:  [3312] stream: scaling L3 cache size by number of numa nodes 2 to 39424K
+stress-ng: info:  [3312] stream: using cache size of 39424K
+stress-ng: info:  [3312] stream: stressor loosely based on a variant of the STREAM benchmark code
+stress-ng: info:  [3312] stream: do NOT submit any of these results to the STREAM benchmark results
+stress-ng: info:  [3312] stream: using 3 cache sized buffers for stream operations, total 14784K per stream instance
+stress-ng: info:  [3317] stream: memory rate: 6025.83 MB read/sec, 4017.22 MB write/sec, 526.54 double precision Mflop/sec (instance 5)
+stress-ng: info:  [3316] stream: memory rate: 6122.95 MB read/sec, 4081.97 MB write/sec, 535.03 double precision Mflop/sec (instance 4)
+stress-ng: info:  [3313] stream: memory rate: 5994.84 MB read/sec, 3996.56 MB write/sec, 523.84 double precision Mflop/sec (instance 1)
+stress-ng: info:  [3318] stream: memory rate: 6085.55 MB read/sec, 4057.03 MB write/sec, 531.76 double precision Mflop/sec (instance 6)
+stress-ng: info:  [3314] stream: memory rate: 5923.99 MB read/sec, 3949.33 MB write/sec, 517.65 double precision Mflop/sec (instance 2)
+stress-ng: info:  [3319] stream: memory rate: 6068.03 MB read/sec, 4045.35 MB write/sec, 530.23 double precision Mflop/sec (instance 7)
+stress-ng: info:  [3312] stream: memory rate: 5995.85 MB read/sec, 3997.23 MB write/sec, 523.93 double precision Mflop/sec (instance 0)
+stress-ng: info:  [3315] stream: memory rate: 5996.63 MB read/sec, 3997.75 MB write/sec, 523.99 double precision Mflop/sec (instance 3)
+stress-ng: metrc: [3310] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [3310]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [3310] stream            74647     45.01    359.82      0.16      1658.46         207.37
+stress-ng: info:  [3310] skipped: 0
+stress-ng: info:  [3310] passed: 8: stream (8)
+stress-ng: info:  [3310] failed: 0
+stress-ng: info:  [3310] metrics untrustworthy: 0
+stress-ng: info:  [3310] successful run completed in 45.01 secs

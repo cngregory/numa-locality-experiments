@@ -1,0 +1,39 @@
+Available components and hardware information.
+--------------------------------------------------------------------------------
+PAPI version             : 7.2.0.0
+Operating system         : Linux 7.0.0-27-generic
+Vendor string and code   : GenuineIntel (1, 0x1)
+Model string and code    : Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz (85, 0x55)
+CPU revision             : 4.000000
+CPUID                    : Family/Model/Stepping 6/85/4, 0x06/0x55/0x04
+CPU Max MHz              : 3700
+CPU Min MHz              : 1000
+Total cores              : 24
+SMT threads per core     : 1
+Cores per socket         : 12
+Sockets                  : 2
+Cores per NUMA region    : 12
+NUMA regions             : 2
+Running in a VM          : no
+Number Hardware Counters : 0
+Max Multiplex Counters   : 384
+Fast counter read (rdpmc): no
+--------------------------------------------------------------------------------
+
+Compiled-in components:
+Name:   perf_event              Linux perf_event CPU counters
+   \-> Disabled: perf_event support disabled by Linux with paranoid=4
+Name:   perf_event_uncore       Linux perf_event CPU uncore and northbridge
+   \-> Disabled: Insufficient permissions for uncore access.  Set /proc/sys/kernel/perf_event_paranoid to 0, run as root or get CAP_PERFMON.
+Name:   sde                     Software Defined Events (SDE) component
+   \-> Disabled: libsde API not found. No SDEs exist in this executable.
+Name:   rocm_smi                AMD GPU System Management Interface via rocm_smi_lib
+   \-> Disabled: Can't load librocm_smi64.so, PAPI_ROCMSMI_ROOT not set.
+Name:   sysdetect               System info detection component
+
+Active components:
+Name:   sysdetect               System info detection component
+                                Native: 0, Preset: 0, Counters: 0
+
+
+--------------------------------------------------------------------------------
